@@ -1,5 +1,13 @@
-.tagline {}
+.header {
+    color: #534741;
+}
 
-.skills {}
+.tagline {
+    color: #589584;
+}
+
+.skills {
+    margin-left: 50px;
+}
 
 .contact {}
