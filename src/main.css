@@ -1,13 +1,83 @@
-.header {
-    color: #534741;
+* {
+    /* border: solid 2px black; */
 }
 
-.tagline {
-    color: #589584;
+html,
+body {
+    /* display: flex; */
 }
 
-.skills {
-    margin-left: 50px;
+a {
+    color: initial;
+    text-decoration: initial;
 }
 
-.contact {}
+.row {
+    display: flex;
+}
+
+.flexrow>div {
+    display: flex;
+    flex: 1;
+    border: solid 1px black;
+}
+
+.left {
+    background-color: #d2c6bc;
+    flex: 3;
+    position: relative;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+}
+
+.right {
+    flex: 7;
+    background-color: #9ad1c1;
+}
+
+.left,
+.right {
+    height: 800px;
+}
+
+.myPhoto {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-image: url(img/1.jpg);
+    background-size: cover;
+    top: 0;
+    left: 50%;
+}
+
+.tagline {}
+
+.skills {}
+
+.contact ul {
+    list-style: none;
+}
+
+.contact li {
+    display: inline-block;
+}
+
+
+/* right */
+
+.cardrow {
+    display: flex;
+    justify-content: space-around;
+}
+
+.flexcard {
+    width: 400px;
+    height: 300px;
+}
+
+.flexcard1,
+.flexcard2 {
+    background-color: #555;
+}
